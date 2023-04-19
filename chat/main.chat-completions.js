@@ -7,16 +7,17 @@ const API_VERSION = "2023-03-15-preview";
 
 const URL = `${BASE_URL}/openai/deployments/${DEPLOYMENT_NAME}/chat/completions?api-version=${API_VERSION}`;
 
-var prompt = "Once upon a time,";
-var payload = {
-  "messages":
-    [
-      { "role": "system", "content": "You are a helpful assistant." },
-      { "role": "user", "content": prompt }
-    ]
-};
 
 (async () => {
+  var prompt = "Once upon a time,";
+  var payload = {
+    "messages":
+      [
+        { "role": "system", "content": "You are a helpful assistant." },
+        { "role": "user", "content": prompt }
+      ]
+  };
+
   try {
     var response = await axios.post(URL, payload, {
       headers: {
