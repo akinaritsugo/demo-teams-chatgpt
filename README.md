@@ -1,0 +1,5 @@
+## 環境変数
+
+- ENDPOINT
+- API_KEY
+- DEPLOYMENT_NAME
