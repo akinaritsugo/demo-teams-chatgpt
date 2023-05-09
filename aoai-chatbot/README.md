@@ -1,9 +1,8 @@
-# teams-chatgpt-bot
+# aoai-chatbot
 
 Demonstrate the core capabilities of the Microsoft Bot Framework
 
-This bot has been created using [Bot Framework](https://dev.botframework.com), it provides a minimal skeleton of a bot.
-
+This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to create a simple bot that accepts input from the user and echoes it back.
 
 ## Prerequisites
 
@@ -40,12 +39,10 @@ This bot has been created using [Bot Framework](https://dev.botframework.com), i
 - File -> Open Bot
 - Enter a Bot URL of `http://localhost:3978/api/messages`
 
-
 ## Deploy the bot to Azure
 
-This bot was generated using the Empty bot template.  Unmodified, it's not practical to deploy an empty bot to Azure, as it doesn't have any conversational behavior yet.
-After making modifications to the bot and testing it locally, you can deploy it to Azure to make it accessible from anywhere.
-To learn how, see [Deploy your bot to Azure](https://aka.ms/azuredeployment) for a complete set of deployment instructions.
+To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](https://aka.ms/azuredeployment) for a complete list of deployment instructions.
+
 
 ## Further reading
 
